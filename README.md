@@ -8,7 +8,7 @@ Hello world! This repository contains solutions to [`adventofcode`](https://adve
 * I'll be using [`Python 3.10`](https://docs.python.org/3.10/whatsnew/3.10.html)
 * My submissions maybe erratic. I will also not submit solutions until at least 24 hours after the problem has released.
 * I am also not intending to use 3rd party libraries and using the standard library only.
-* Feedback on my solutions are welcome and appreciated.
+* Feedback on my solutions are welcome and appreciated. See [Contributing](CONTRIBUTING.md) for more details.
 
 ## Index
 
