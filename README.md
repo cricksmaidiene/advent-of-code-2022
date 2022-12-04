@@ -14,7 +14,7 @@ Hello world! This repository contains solutions to [`adventofcode`](https://adve
 
 | 🎑 Day | 🎅🏽 Title | 🐍 Python |
 | --- | ----- | -------- |
-| 01 | [Calorie Counting](https://adventofcode.com/2022/day/1) | [01 Sol](aoc/01/2022_01.ipynb) |
-| 02 | [Rock Paper Scissors](https://adventofcode.com/2022/day/2) | [02 Sol](aoc/02/2022_02.ipynb) |
-| 03 | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [03 Sol](aoc/03/2022_03.ipynb) |
-| 04 | [Camp Cleanup](https://adventofcode.com/2022/day/4) | [04 Sol](aoc/04/2022_04.ipynb) |
+| 01 | [Calorie Counting](https://adventofcode.com/2022/day/1) | [01 Sol](aoc/01/2022_01.py) |
+| 02 | [Rock Paper Scissors](https://adventofcode.com/2022/day/2) | [02 Sol](aoc/02/2022_02.py) |
+| 03 | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [03 Sol](aoc/03/2022_03.py) |
+| 04 | [Camp Cleanup](https://adventofcode.com/2022/day/4) | [04 Sol](aoc/04/2022_04.py) |
