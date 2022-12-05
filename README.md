@@ -18,3 +18,4 @@ Hello world! This repository contains solutions to [`adventofcode`](https://adve
 | 02 | [Rock Paper Scissors](https://adventofcode.com/2022/day/2) | [02 Sol](aoc/02/2022_02.py) |
 | 03 | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [03 Sol](aoc/03/2022_03.py) |
 | 04 | [Camp Cleanup](https://adventofcode.com/2022/day/4) | [04 Sol](aoc/04/2022_04.py) |
+| 05 | [Supply Stacks](https://adventofcode.com/2022/day/5) | [05 Sol](aoc/05/2022_05.py) |
