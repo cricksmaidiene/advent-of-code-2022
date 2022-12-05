@@ -84,7 +84,7 @@ for each_move in moves_indexed:
     apply_changes(each_move)
 
 
-"".join(
+result_1: str = "".join(
     [
         container_top[1]
         for container_top in sorted(
@@ -96,6 +96,8 @@ for each_move in moves_indexed:
         )
     ]
 )
+
+print(result_1)
 
 """
 Part 2
@@ -108,7 +110,7 @@ container_map: dict[int, list[str]] = {
 for each_move in moves_indexed:
     apply_changes(each_move, retain_order=True)
 
-"".join(
+result_2: str = "".join(
     [
         container_top[1]
         for container_top in sorted(
@@ -120,3 +122,5 @@ for each_move in moves_indexed:
         )
     ]
 )
+
+print(result_2)
