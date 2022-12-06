@@ -19,3 +19,4 @@ Hello world! This repository contains solutions to [`adventofcode`](https://adve
 | 03 | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [03 Sol](aoc/03/2022_03.py) |
 | 04 | [Camp Cleanup](https://adventofcode.com/2022/day/4) | [04 Sol](aoc/04/2022_04.py) |
 | 05 | [Supply Stacks](https://adventofcode.com/2022/day/5) | [05 Sol](aoc/05/2022_05.py) |
+| 06 | [Tuning Trouble](https://adventofcode.com/2022/day/6) | [06 Sol](aoc/06/2022_06.py) |
