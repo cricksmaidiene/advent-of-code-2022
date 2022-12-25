@@ -22,3 +22,4 @@ Hello world! This repository contains solutions to [`adventofcode`](https://adve
 | 06 | [Tuning Trouble](https://adventofcode.com/2022/day/6) | [06 Sol](aoc/06/2022_06.py) |
 | 07 | [No Space Left on Device](https://adventofcode.com/2022/day/7) | [07 Sol](aoc/07/2022_07.py) |
 | 08 | [Treetop Tree House](https://adventofcode.com/2022/day/8) | [08 Sol](aoc/08/2022_08.py) |
+| 09 | [Rope Bridge](https://adventofcode.com/2022/day/9) | [09 Sol](aoc/09/2022_09.py) |
