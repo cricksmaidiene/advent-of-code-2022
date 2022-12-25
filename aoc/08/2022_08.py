@@ -24,9 +24,9 @@ def get_all_cardinal_neighbours(row_indx: int, col_indx: int) -> dict[str, list[
     """
     return dict(
         north=list(reversed([int(x[col_indx]) for x in inp_tup[0:row_indx]])),
-        east=[int(x) for x in inp_tup[row_indx][col_indx + 1 :]],
+        east=[int(x) for x in inp_tup[row_indx][col_indx + 1:]],
         west=list(reversed([int(x) for x in inp_tup[row_indx][:col_indx]])),
-        south=[int(x[col_indx]) for x in inp_tup[row_indx + 1 :]],
+        south=[int(x[col_indx]) for x in inp_tup[row_indx + 1:]],
     )
 
 
@@ -41,6 +41,7 @@ for row_indx, tree_row in enumerate(inp_tup):
     if row_indx in (0, len(inp_tup) - 1):
         # if the row is the first or last row, all trees are visible
         num_visible += len(tree_row)
+        # no need to check the rest of the trees in this row
         continue
 
     for col_indx, tree_height in enumerate(tree_row):
@@ -108,6 +109,7 @@ for row_indx, tree_row in enumerate(inp_tup):
                 # if a tree is taller than the current tree, stop counting
                 if candidate_tree_height >= tree_height_int:
                     break
+
             # multiply the scenic score by the number of trees in the current cardinal direction
             scenic_score *= cardinal_tree_count
 
