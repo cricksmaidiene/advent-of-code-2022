@@ -46,7 +46,7 @@ def compute_distance(head_loc: tuple, tail_loc: tuple) -> float:
 
 def is_tail_and_head_adjacent(head_loc: tuple, tail_loc: tuple) -> bool:
     """Determine if the head and tail are adjacent, even diagonally.
-    If the head and tail are adjacent, the distance between them will be 1.0 
+    If the head and tail are adjacent, the distance between them will be 1.0
     or sqrt(2) if diagonally adjacent.
 
     Args:
@@ -62,8 +62,8 @@ def is_tail_and_head_adjacent(head_loc: tuple, tail_loc: tuple) -> bool:
 def compute_tail_move(
     new_head_loc: tuple, tail_loc: tuple, direction: str
 ) -> tuple[int, int]:
-    """Compute the new tail location based on the new head location and 
-    the old tail location. This function decides how the tail 
+    """Compute the new tail location based on the new head location and
+    the old tail location. This function decides how the tail
     should move and in what direction
 
     Args:
@@ -129,6 +129,7 @@ def compute_move(direction: str, distance: int):
             new_tail_loc = compute_tail_move(new_head_loc, current_tail_loc, direction)
 
         tail_trail.append(new_tail_loc)
+
 
 # Map the input to the compute_move function
 list(itertools.starmap(compute_move, inp_tup))
