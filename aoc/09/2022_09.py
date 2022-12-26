@@ -10,6 +10,7 @@ with open("input.txt") as f:
 """
 Part 1
 """
+
 # Define the starting point of the coordinate reference system
 start: tuple[int, int] = (0, 0)
 # Define the head and tail visitation trails
