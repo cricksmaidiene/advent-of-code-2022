@@ -1,5 +1,4 @@
 from typing import Callable
-from tqdm import tqdm
 
 with open("input.txt") as f:
     inp: str = f.read()
@@ -109,7 +108,7 @@ def enact_all_monkeys(iterations: int, intact_worry_decrement: bool = True) -> d
     """
     monkey_freq_map: dict[int, int] = {monkey["monkey_id"]: 0 for monkey in monkeys}
 
-    for x in tqdm(range(iterations)):
+    for x in range(iterations):
         if x == 100:
             input("Press enter to continue...")
         for monkey in monkeys:
